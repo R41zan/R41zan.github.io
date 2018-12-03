@@ -19,7 +19,7 @@ class App extends Component {
             <Content style={{ height: '100%' }}>
               <RouterComponent />
             </Content>
-            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white' }}>
+            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', textAlign: 'center', color: 'white' }}>
               Ant Design ©2018 Created by Ant UED
             </Footer>
           </Layout>
