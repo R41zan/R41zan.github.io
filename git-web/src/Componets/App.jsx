@@ -6,21 +6,20 @@ import '../Styles/App.css';
 import '../Styles/Navbar.css';
 import { Layout } from 'antd';
 
-const { Header, Content, Footer } = Layout;
+const { Content, Footer } = Layout;
 
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Layout className='layout'>
+        <Layout className='layout' style={{minHeight: '100vh'}}>
           <Navbar />
           <Layout>
-            <Header style={{ background: '#fff', padding: 0 }} />
             <Content style={{ height: '100%' }}>
               <RouterComponent />
             </Content>
-            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white' }}>
+            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white'}}>
               Footer
             </Footer>
           </Layout>

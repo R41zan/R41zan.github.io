@@ -2,6 +2,7 @@
 No media query since this is the default in Bootstrap*/
 .navbar {
     border-radius: 0px !important;
+    margin-bottom: 0px;
 }
 /*Small devices (landscape phones, up to 576px)*/
 @media (max-width: 576px) {

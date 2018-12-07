@@ -9,6 +9,7 @@ class NavBar extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
+            {/* eslint-disable-next-line */}
             <a>React-Bootstrap</a>
           </Navbar.Brand>
           <Navbar.Toggle />
