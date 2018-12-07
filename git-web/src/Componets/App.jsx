@@ -3,6 +3,7 @@ import Navbar from './Navbar.jsx';
 import RouterComponent from './RouterComponent.jsx';
 import { BrowserRouter as Router } from "react-router-dom";
 import '../Styles/App.css';
+import '../Styles/Navbar.css';
 import { Layout } from 'antd';
 
 const { Header, Content, Footer } = Layout;
@@ -19,8 +20,8 @@ class App extends Component {
             <Content style={{ height: '100%' }}>
               <RouterComponent />
             </Content>
-            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', textAlign: 'center', color: 'white' }}>
-              Ant Design ©2018 Created by Ant UED
+            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white' }}>
+              Footer
             </Footer>
           </Layout>
         </Layout>
