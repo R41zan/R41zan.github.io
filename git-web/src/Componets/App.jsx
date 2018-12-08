@@ -13,13 +13,13 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Layout className='layout' style={{minHeight: '100vh'}}>
+        <Layout className='layout'>
           <Navbar />
           <Layout>
-            <Content style={{ height: '100%' }}>
+            <Content style={{marginBottom:'5vh', marginTop:'5vh'}}>
               <RouterComponent />
             </Content>
-            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white'}}>
+            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: 'white',  position: 'fixed', left: '0', bottom: '0', width: '100%'}}>
               Footer
             </Footer>
           </Layout>

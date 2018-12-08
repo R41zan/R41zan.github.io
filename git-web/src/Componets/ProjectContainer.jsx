@@ -8,11 +8,28 @@ class ProjectContainer extends Component {
     render() {
         return (
             <div>
-                <Row >
+                <Row>
                     <Col span={8} style={{ padding: 20 }}><Projects /></Col>
                     <Col span={8} style={{ padding: 20 }}><Projects /></Col>
                     <Col span={8} style={{ padding: 20 }}><Projects /></Col>
                     <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+                    <Col span={8} style={{ padding: 20 }}><Projects /></Col>
+
                 </Row>
             </div>
         );

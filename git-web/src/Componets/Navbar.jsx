@@ -6,7 +6,8 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 class NavBar extends Component {
   render() {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse collapseOnSelect style={{minHeight:'5vh', position: 'fixed',
+      top: '0', width: '100%',backgroundColor: '#001529', zIndex:'10000'}}>
         <Navbar.Header>
           <Navbar.Brand>
             {/* eslint-disable-next-line */}
